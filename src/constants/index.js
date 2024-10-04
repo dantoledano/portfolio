@@ -3,13 +3,16 @@ import project1 from "../assets/projects/project-1.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a computer science student and dedicated software developer`;
+export const HERO_CONTENT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly web applications.
+I have worked with a variety of technologies, including React, Node.js, MongoDB, Express, and much more.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly web applications.
- I have worked with a variety of technologies, including React, Node.js, MongoDB, Express and much more.
- As an 8200 alumni, I’ve gained practical experience and a strong understanding of the tech field.
-  I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.
-  I am eager to learn and grow as a software developer, always seeking to improve my skills and expand my knowledge base.
+export const ABOUT_TEXT = `I am a second-year Computer Science student at The Academic College of Tel-Aviv Yaffo,
+ who is eager to learn and grow as a developer.
+  As an 8200 alumni, I bring valuable experience from the tech field,
+   contributing to my strong problem-solving skills and ability to adapt to new technologies.
+    Alongside my academic studies, I am driven by self-learning and have completed multiple online courses,
+     enhancing my proficiency in full-stack web development, working with a range of technologies and tools.
+  I am eager to learn and always seeking to improve my skills and expand my knowledge base.
   Don't hesitate to get in touch 😊`;
 
 export const PROJECTS = [
