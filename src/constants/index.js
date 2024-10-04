@@ -11,9 +11,7 @@ export const ABOUT_TEXT = `I am a second-year Computer Science student at The Ac
   As an 8200 alumni, I bring valuable experience from the tech field,
    contributing to my strong problem-solving skills and ability to adapt to new technologies.
     Alongside my academic studies, I am driven by self-learning and have completed multiple online courses,
-     enhancing my proficiency in full-stack web development, working with a range of technologies and tools.
-  I am eager to learn and always seeking to improve my skills and expand my knowledge base.
-  Don't hesitate to get in touch 😊`;
+     enhancing my proficiency in full-stack web development, working with a range of technologies and tools.`;
 
 export const PROJECTS = [
   {
