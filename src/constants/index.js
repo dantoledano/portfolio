@@ -8,9 +8,8 @@ import muchillsPic6 from "../assets/projects/muchills/muchills-photo6.png";
 import memoryPic1 from "../assets/projects/memory/memory-photo.png";
 import memoryPic2 from "../assets/projects/memory/memory-photo2.png";
 
-export const HERO_CONTENT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly web applications.
-I have worked with a variety of technologies, including React, Node.js, MongoDB, Express, and much more.`;
-
+export const HERO_CONTENT = `I'm a student software developer who loves building easy-to-use and efficient web applications.`;
+export const HERO_TECHNOLOGIES = `I have worked with a variety of technologies, including React, Node.js, MongoDB, Express, and much more.`;
 export const ABOUT_TEXT = `I am a second-year Computer Science student at The Academic College of Tel-Aviv Yaffo,
  who is eager to learn and grow as a developer.
   As an 8200 alumni, I bring valuable experience from the tech field,
@@ -47,7 +46,7 @@ export const PROJECTS = [
     ],
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwinds"],
+    technologies: ["React", "Tailwinds", "HTML", "CSS"],
     url: "https://github.com/dantoledano/portfolio",
     liveUrl: "https://muchills.onrender.com/",
   },
@@ -62,7 +61,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Tel Aviv, Israel ",
   phoneNo: "+972 52-7493508 ",
   email: "dan3tol99@gmail.com",
 };

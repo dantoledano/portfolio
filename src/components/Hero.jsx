@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT, HERO_TECHNOLOGIES } from "../constants";
 import profilePic from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
@@ -36,9 +36,11 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.5 }}
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter font-spacing-medium line-spacing-medium"
             >
               {HERO_CONTENT}
+              <br />
+              {HERO_TECHNOLOGIES}
             </motion.p>
           </div>
         </div>
