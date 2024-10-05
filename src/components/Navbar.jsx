@@ -16,6 +16,7 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/dantoledano"
           target="_blank"
           rel="noopener noreferrer"
+          className="transition-transform transform hover:scale-125"
         >
           <FaLinkedin />
         </a>
@@ -23,6 +24,7 @@ const Navbar = () => {
           href="https://github.com/dantoledano"
           target="_blank"
           rel="noopener noreferrer"
+          className="transition-transform transform hover:scale-125"
         >
           <FaGithub />
         </a>

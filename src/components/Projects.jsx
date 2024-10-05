@@ -1,11 +1,8 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 import ImageSlider from "./ImageSlider";
-///
-// import muchillsPic1 from "../assets/projects/muchills/muchills-photo.png";
-// import muchillsPic2 from "../assets/projects/muchills/muchills-photo2.png";
-
-// const slides = [muchillsPic1, muchillsPic2];
+import ProjectButton from "./ProjectButton";
+import { FaGithub, FaChrome } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -54,6 +51,16 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
+              </div>
+              <div className="flex gap-2 py-3">
+                <ProjectButton url={project.url}>
+                  Source <FaGithub className="inline-block ml-1" />
+                </ProjectButton>
+                {project.liveUrl && (
+                  <ProjectButton url={project.liveUrl}>
+                    Live Demo <FaChrome className="inline-block ml-1" />
+                  </ProjectButton>
+                )}
               </div>
             </motion.div>
           </div>

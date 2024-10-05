@@ -32,6 +32,8 @@ export const PROJECTS = [
     description:
       "A fully functional web application with features that offers a seamless experience for users to explore, book, and review exciting tours around the world.",
     technologies: ["Node.js", "MongoDB", "Express", "Pug", "CSS", "JWT"],
+    url: "https://github.com/dantoledano/Muchills_nodejs",
+    liveUrl: "https://muchills.onrender.com/",
   },
   {
     title: "Portfolio Website",
@@ -46,6 +48,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwinds"],
+    url: "https://github.com/dantoledano/portfolio",
+    liveUrl: "https://muchills.onrender.com/",
   },
   {
     title: "Memory Game",
@@ -53,6 +57,7 @@ export const PROJECTS = [
     description:
       "CLI Memory Game where you can test your memory skills against another player or an AI opponent.",
     technologies: ["C#", ".NET"],
+    url: "https://github.com/dantoledano/MemoryGame_CS.NET",
   },
 ];
 
