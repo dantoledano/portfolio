@@ -1,7 +1,12 @@
-import project1 from "../assets/projects/project-1.jpg";
-//import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+//import project1 from "../assets/projects/project-1.jpg";
+import muchillsPic1 from "../assets/projects/muchills/muchills-photo.png";
+import muchillsPic2 from "../assets/projects/muchills/muchills-photo2.png";
+import muchillsPic3 from "../assets/projects/muchills/muchills-photo3.png";
+import muchillsPic4 from "../assets/projects/muchills/muchills-photo4.png";
+import muchillsPic5 from "../assets/projects/muchills/muchills-photo5.png";
+import muchillsPic6 from "../assets/projects/muchills/muchills-photo6.png";
+import memoryPic1 from "../assets/projects/memory/memory-photo.png";
+import memoryPic2 from "../assets/projects/memory/memory-photo2.png";
 
 export const HERO_CONTENT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly web applications.
 I have worked with a variety of technologies, including React, Node.js, MongoDB, Express, and much more.`;
@@ -16,21 +21,35 @@ export const ABOUT_TEXT = `I am a second-year Computer Science student at The Ac
 export const PROJECTS = [
   {
     title: "Muchills",
-    image: project1,
+    slides: [
+      muchillsPic1,
+      muchillsPic2,
+      muchillsPic3,
+      muchillsPic4,
+      muchillsPic5,
+      muchillsPic6,
+    ],
     description:
-      "A fully functional web application with features that offers It offers a seamless experience for users to explore, book, and review exciting tours around the world.",
+      "A fully functional web application with features that offers a seamless experience for users to explore, book, and review exciting tours around the world.",
     technologies: ["Node.js", "MongoDB", "Express", "Pug", "CSS", "JWT"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    slides: [
+      muchillsPic1,
+      muchillsPic2,
+      muchillsPic3,
+      muchillsPic4,
+      muchillsPic5,
+      muchillsPic6,
+    ],
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwinds"],
   },
   {
     title: "Memory Game",
-    image: project4,
+    slides: [memoryPic1, memoryPic2],
     description:
       "CLI Memory Game where you can test your memory skills against another player or an AI opponent.",
     technologies: ["C#", ".NET"],
@@ -39,6 +58,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Tel Aviv, Israel ",
-  phoneNo: "+972 052-7493508 ",
+  phoneNo: "+972 52-7493508 ",
   email: "dan3tol99@gmail.com",
 };

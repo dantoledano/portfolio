@@ -1,6 +1,11 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import ImageSlider from "./ImageSlider";
+///
+// import muchillsPic1 from "../assets/projects/muchills/muchills-photo.png";
+// import muchillsPic2 from "../assets/projects/muchills/muchills-photo2.png";
 
+// const slides = [muchillsPic1, muchillsPic2];
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -21,30 +26,35 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              <ImageSlider>
+                {project.slides.map((slide, index) => (
+                  <img
+                    key={index}
+                    src={slide}
+                    alt={project.title}
+                    className="mb-6 rounded"
+                  />
+                ))}
+              </ImageSlider>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-3/4 lg:ml-20"
             >
               <h6 className="mb-6 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
