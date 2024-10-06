@@ -1,5 +1,6 @@
 import { HERO_CONTENT, HERO_TECHNOLOGIES } from "../constants";
-import profilePic from "../assets/about.jpg";
+//import profilePic from "../assets/about.jpg";
+import aboutPic from "../assets/about-photo.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -51,9 +52,9 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.6 }}
-              src={profilePic}
+              src={aboutPic}
               alt="profile picture"
-              className="w-36 h-36 rounded-lg object-cover sm:w-48 sm:h-48 md:w-64 md:h-64"
+              className="w-48 h-48 rounded-lg object-cover sm:w-48 sm:h-48 lg:w-80 lg:h-80"
             />
           </div>
         </div>

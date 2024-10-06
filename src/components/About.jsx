@@ -1,4 +1,4 @@
-import profilePic from "../assets/about.jpg";
+import aboutPic from "../assets/about2-photo.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
@@ -21,9 +21,9 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <img
-              src={profilePic}
+              src={aboutPic}
               alt="profile picture"
-              className="w-36 h-36 rounded-2xl object-cover sm:w-48 sm:h-48 md:w-64 md:h-64"
+              className="w-48 h-48 rounded-2xl object-cover sm:w-48 sm:h-48 lg:w-64 lg:h-64"
             />
           </div>
         </motion.div>

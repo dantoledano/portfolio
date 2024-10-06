@@ -5,6 +5,11 @@ import muchillsPic3 from "../assets/projects/muchills/muchills-photo3.png";
 import muchillsPic4 from "../assets/projects/muchills/muchills-photo4.png";
 import muchillsPic5 from "../assets/projects/muchills/muchills-photo5.png";
 import muchillsPic6 from "../assets/projects/muchills/muchills-photo6.png";
+import portfolioPoc1 from "../assets/projects/portfolio/portfolio-photo.png";
+import portfolioPoc2 from "../assets/projects/portfolio/portfolio-photo2.png";
+import portfolioPoc3 from "../assets/projects/portfolio/portfolio-photo3.png";
+import portfolioPoc4 from "../assets/projects/portfolio/portfolio-photo4.png";
+import portfolioPoc5 from "../assets/projects/portfolio/portfolio-photo5.png";
 import memoryPic1 from "../assets/projects/memory/memory-photo.png";
 import memoryPic2 from "../assets/projects/memory/memory-photo2.png";
 
@@ -27,7 +32,7 @@ export const PROJECTS = [
       muchillsPic6,
     ],
     description:
-      "A fully functional web application with features that offers a seamless experience for users to explore, book, and review exciting tours around the world.",
+      "A fully functional tour-booking web application with features for exploring, booking, and reviewing exciting tours worldwide. The platform provides a smooth user experience. Currently not responsive.",
     technologies: ["Node.js", "MongoDB", "Express", "Pug", "CSS", "JWT"],
     url: "https://github.com/dantoledano/Muchills_nodejs",
     liveUrl: "https://muchills.onrender.com/",
@@ -35,15 +40,14 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     slides: [
-      muchillsPic1,
-      muchillsPic2,
-      muchillsPic3,
-      muchillsPic4,
-      muchillsPic5,
-      muchillsPic6,
+      portfolioPoc1,
+      portfolioPoc2,
+      portfolioPoc3,
+      portfolioPoc4,
+      portfolioPoc5,
     ],
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "This personal portfolio website showcasing projects, skills, and contact information, including features for sending emails and light-dark mode functionality",
     technologies: ["React", "Tailwinds", "HTML", "CSS"],
     url: "https://github.com/dantoledano/portfolio",
     liveUrl: "https://muchills.onrender.com/",
