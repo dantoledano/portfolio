@@ -9,7 +9,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="lg:mx-20 flex flex-col items-center lg:items-start">
@@ -20,6 +20,7 @@ const Hero = () => {
               transition={{ duration: 0.5 }}
               className="pb-12 text-5xl font-thin tracking-tight lg:mt-10 lg:text-7xl"
             >
+              I am <br />
               Dan Toledano
             </motion.h1>
             <motion.span
@@ -27,7 +28,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.5 }}
-              className="bg-gradient-to-r from-purple-100 via-slate-500 to-purple-900 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-slate-300 via-slate-500 to-slate-400 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent"
             >
               Student Software Developer
             </motion.span>

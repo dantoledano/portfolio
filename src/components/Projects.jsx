@@ -5,7 +5,7 @@ import ProjectButton from "./ProjectButton";
 import { FaGithub, FaChrome } from "react-icons/fa";
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -42,11 +42,11 @@ const Projects = () => {
             >
               <h6 className="mb-6 font-semibold text-xl ">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-y-1">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-slate-300"
                   >
                     {tech}
                   </span>

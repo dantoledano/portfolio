@@ -13,7 +13,7 @@ function ProjectButton({ url, children }) {
   return (
     <button
       onClick={handleClick}
-      className="bg-purple-950 bg-opacity-40 shadow-md shadow-gray-700 text-sm rounded hover:bg-purple-900 hover:scale-105 transition transform duration-200 ease-in-out px-1 py-0.5"
+      className="bg-slate-500 bg-opacity-40 shadow-sm shadow-slate-100 text-sm rounded hover:bg-slate-600 hover:scale-105 transition transform duration-200 ease-in-out px-1 py-0.5"
     >
       {children}
     </button>

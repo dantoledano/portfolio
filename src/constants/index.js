@@ -12,10 +12,8 @@ export const HERO_CONTENT = `I'm a student software developer who loves building
 export const HERO_TECHNOLOGIES = `I have worked with a variety of technologies, including React, Node.js, MongoDB, Express, and much more.`;
 export const ABOUT_TEXT = `I am a second-year Computer Science student at The Academic College of Tel-Aviv Yaffo,
  who is eager to learn and grow as a developer.
-  As an 8200 alumni, I bring valuable experience from the tech field,
-   contributing to my strong problem-solving skills and ability to adapt to new technologies.
-    Alongside my academic studies, I am driven by self-learning and have completed multiple online courses,
-     enhancing my proficiency in full-stack web development, working with a range of technologies and tools.`;
+  As an 8200 alumni, I bring valuable experience from the tech field and ability to adapt to new technologies.
+Alongside my studies, I actively self-learn and have completed several online courses, gaining proficiency in full-stack development with various technologies`;
 
 export const PROJECTS = [
   {

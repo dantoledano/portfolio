@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <section className="section" id="contact">
-      <div className="border-b border-neutral-900 pb-20">
+      <div className="pb-20">
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
@@ -46,25 +46,25 @@ const Contact = () => {
           className="max-w-md mx-auto border rounded-2xl flex flex-col gap-y-6 pb-10 p-6 w-full shadow-xl shadow-gray-500 mb-10"
         >
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-purple-950 transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full focus:border-purple-950 transition-all"
             type="text"
             name="from_name"
             placeholder="Your Name"
           />
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-purple-950 transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full  focus:border-purple-950 transition-all"
             type="email"
             name="user_email"
             placeholder="Your Email"
           />
           <textarea
             placeholder="Your Message"
-            className="bg-transparent border-b py-2 outline-none w-full placeholder:text-white focus:border-purple-950 transition-all"
+            className="bg-transparent border-b py-2 outline-none w-full focus:border-purple-950 transition-all"
             name="message"
           ></textarea>
 
           <div className="flex justify-center">
-            <button className="bg-purple-950 text-white bg-opacity-40 inline-block text-sm rounded shadow-lg hover:bg-purple-900 hover:scale-105 transition transform duration-200 ease-in-out px-4 py-2">
+            <button className="bg-slate-500 bg-opacity-40 shadow-md shadow-slate-700 text-white inline-block text-sm rounded hover:bg-slate-600 hover:scale-105 transition transform duration-200 ease-in-out px-4 py-2">
               Send Message
             </button>
           </div>
