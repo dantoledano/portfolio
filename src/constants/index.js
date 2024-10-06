@@ -48,7 +48,7 @@ export const PROJECTS = [
     ],
     description:
       "This personal portfolio website showcasing projects, skills, and contact information, including features for sending emails and light-dark mode functionality",
-    technologies: ["React", "Tailwinds", "HTML", "CSS"],
+    technologies: ["React", "Tailwind", "HTML", "CSS"],
     url: "https://github.com/dantoledano/portfolio",
     liveUrl: "https://muchills.onrender.com/",
   },

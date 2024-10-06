@@ -50,13 +50,19 @@ export default function ImageSlider({ children: slides }) {
           onClick={getPrev}
           className="transition transform hover:scale-125 duration-300"
         >
-          <IoIosArrowBack className="filter invert" size={30} />
+          <IoIosArrowBack
+            className="text-gray-400 mix-blend-difference"
+            size={30}
+          />
         </button>
         <button
           onClick={getNext}
           className="transition transform hover:scale-125 duration-300"
         >
-          <IoIosArrowForward className="filter invert" size={30} />
+          <IoIosArrowForward
+            className="text-gray-400 mix-blend-difference"
+            size={30}
+          />
         </button>
       </div>
       <div className="absolute bottom-8 right-0 left-0">
