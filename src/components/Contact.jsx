@@ -42,7 +42,7 @@ const Contact = () => {
           onSubmit={sendEmail}
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5 }}
           className="max-w-md mx-auto border rounded-2xl flex flex-col gap-y-6 pb-10 p-6 w-full shadow-xl shadow-gray-500 mb-10"
         >
           <input
@@ -74,7 +74,7 @@ const Contact = () => {
           <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className="my-4"
           >
             {CONTACT.phoneNo}
@@ -82,7 +82,7 @@ const Contact = () => {
           <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className="pb-4"
           >
             {CONTACT.email}
@@ -90,7 +90,7 @@ const Contact = () => {
           <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className="bolder bg-gradient-to-r from-purple-100 via-slate-500 to-purple-900 bg-clip-text text-xl lg:text-2xl tracking-tight text-transparent"
           >
             By Dan Toledano
