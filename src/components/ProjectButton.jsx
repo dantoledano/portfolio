@@ -21,8 +21,8 @@ function ProjectButton({ url, children }) {
 }
 
 ProjectButton.propTypes = {
-  url: PropTypes.string.isRequired, // Ensures that 'url' is a string
-  children: PropTypes.node.isRequired, // Ensures that 'text' is a string
+  url: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default ProjectButton;
