@@ -1,10 +1,10 @@
-//import project1 from "../assets/projects/project-1.jpg";
 import muchillsPic1 from "../assets/projects/muchills/muchills-photo.png";
 import muchillsPic2 from "../assets/projects/muchills/muchills-photo2.png";
 import muchillsPic3 from "../assets/projects/muchills/muchills-photo3.png";
 import muchillsPic4 from "../assets/projects/muchills/muchills-photo4.png";
 import muchillsPic5 from "../assets/projects/muchills/muchills-photo5.png";
 import muchillsPic6 from "../assets/projects/muchills/muchills-photo6.png";
+import muchillsPic7 from "../assets/projects/muchills/muchills-photo8.png";
 import portfolioPoc1 from "../assets/projects/portfolio/portfolio-photo.png";
 import portfolioPoc2 from "../assets/projects/portfolio/portfolio-photo2.png";
 import portfolioPoc3 from "../assets/projects/portfolio/portfolio-photo3.png";
@@ -83,14 +83,15 @@ export const PROJECTS = [
     title: "Muchills",
     slides: [
       muchillsPic1,
-      muchillsPic2,
-      muchillsPic3,
       muchillsPic4,
       muchillsPic5,
+      muchillsPic7,
+      muchillsPic2,
+      muchillsPic3,
       muchillsPic6,
     ],
     description:
-      "A fully functional tour-booking web application with features for exploring, booking, and reviewing exciting tours worldwide. The platform provides a smooth user experience. Currently not responsive.",
+      "A fully functional tour-booking web application with features for exploring, booking, and reviewing exciting tours worldwide. Includes social features for sharing photos, experiences, and engaging with likes and comments. The platform provides a smooth user experience. Currently not responsive.",
     technologies: ["Node.js", "MongoDB", "Express", "Pug", "CSS", "JWT"],
     url: "https://github.com/dantoledano/Muchills_nodejs",
     liveUrl: "https://muchills.onrender.com/",
